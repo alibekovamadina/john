@@ -57,6 +57,8 @@ body {
     font-family: Heebo;
 }
 
+/*--header--*/
+
 .header {
     padding: 28px 60px;
 }
@@ -65,6 +67,7 @@ body {
     color:black;
     text-decoration:none;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .header__link--active {
@@ -80,4 +83,38 @@ body {
 .header__nav {
     display: flex;
     justify-content: end;
+}
+
+/*--header--*/
+/*--first--*/
+
+.first__title {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 120%;
+    color: #21243D;
+}
+
+.first__text {
+    color: #21243D;
+}
+
+.first__picture {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    box-shadow: -5px 13px 0 #EDF7FA;
+}
+
+/*--first--*/
+/*--button--*/
+
+.button {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 2px;
+    background-color: #FF6464;
+    color: #fff;
+    padding: 9px 20px;
 }
