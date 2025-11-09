@@ -89,6 +89,11 @@ body {
 
 /*--first--*/
 
+.first {
+    padding-top: 127px;
+    padding-bottom: 68px;
+}
+
 .first__container {
     max-width: 856px;
     margin: 0 auto;
