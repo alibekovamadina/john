@@ -86,7 +86,24 @@ body {
 }
 
 /*--header--*/
+
 /*--first--*/
+
+.first__container {
+    max-width: 856px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.first__description {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: start;
+    max-width: 500px;
+}
 
 .first__title {
     font-size: 44px;
@@ -107,6 +124,7 @@ body {
 }
 
 /*--first--*/
+
 /*--button--*/
 
 .button {
